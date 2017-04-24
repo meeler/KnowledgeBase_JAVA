@@ -1,4 +1,4 @@
-package cc.tuomi.lombok;
+package lombok.demo;
 
 
 /**
