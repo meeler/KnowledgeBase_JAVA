@@ -33,6 +33,11 @@ public enum EnumDemo {
         this.statusName = statusName;
     }
 
+    /**
+     *
+     * @param code
+     * @return
+     */
     public static EnumDemo getEnumStatusCode(int code ){
         for (EnumDemo enumDemo :EnumDemo.values()){
             if(enumDemo.statusCode == code){
